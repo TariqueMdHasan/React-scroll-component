@@ -1,12 +1,63 @@
-# React + Vite
+🚀 Auto Scrolling Cards in React
+This project demonstrates a smooth infinite horizontal scroll animation of multiple cards using React and CSS keyframes. Two rows of cards continuously scroll across the screen — one from left to right, and the other from right to left.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Smooth infinite scrolling animation
 
-Currently, two official plugins are available:
+Two opposite scrolling directions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive and flexible layout
 
-## Expanding the ESLint configuration
+Built using only React + CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼 Preview
+Top row scrolls 👉
+Bottom row scrolls 👈
+All cards continuously flow from one screen edge to the other.
+
+🛠 Tech Stack
+React
+
+CSS (keyframes animation)
+
+📁 File Structure
+less
+Copy
+Edit
+├── AutoScroll.js       // React component
+├── App.css             // CSS styles and animations
+├── App.js              // Main entry point (optional)
+▶️ How to Run
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/auto-scroll-react.git
+cd auto-scroll-react
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Open your browser and go to what localhost your app suggesting
+
+🎯 Customization
+Modify the items array in AutoScroll.js to add your own content.
+
+Change scroll speed by adjusting animation duration in App.css.
+
+📸 Example
+js
+Copy
+Edit
+const items = ["🌟 Card 1", "🔥 Card 2", "💡 Card 3"];
+📃 License
+Free to use and modify. No attribution required. 😊
