@@ -63,3 +63,6 @@ const items = ["🌟 Card 1", "🔥 Card 2", "💡 Card 3"];
 
 Free to use and modify. No attribution required. 😊
 
+```
+nothing just try to copy it
+```
